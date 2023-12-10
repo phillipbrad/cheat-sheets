@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CSS Cheat Sheet</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <nav>
+            <ul>
+             <li><a href="index.html">html</a></li>
+        </ul>
+    </nav>
+
+
+       <h1>CSS cheat Sheet</h1>
+    <table>
+    
+     <tbody>
+        <tr>
+            <th>Tag</th>
+            <th>example options</th>
+            <th>Definition</th>
+        </tr>
+        <tr>
+            <td>display</td>
+            <td>inline-block; none;</td>
+            <td>The display property specifies the display behavior (the type of rendering box) of an element.
+
+            </td>
+        </tr>
+        <tr>
+            <td>float</td>
+            <td>right, left, none</td>
+            <td>The float property is used for positioning and formatting content e.g. let an image float left to the text in a container.</td>
+        </tr>
+        <tr>
+            <td>height</td>
+            <td>100%, 50px, auto</td>
+            <td>The height property sets the height of an element</td>
+        </tr>
+        <tr>
+            <td>width</td>
+            <td>100%, 50px, auto</td>
+            <td>Sets the width of the property</td>
+        </tr>
+        <tr>
+            <td>margin</td>
+            <td>margin-top: 30px, margin-left:150px</td>
+            <td>The CSS margin properties are used to create space around elements, outside of any defined borders. With CSS, you have full control over the margins. There are properties for setting the margin for each side of an element (top, right, bottom, and left).
+            </td>
+        </tr>
+        <tr>
+            <td>border</td>
+            <td>border-width: auto, 90px, border-collapse: collapse, border-radius:</td>
+            <td>The border property sets an element's border. It sets the values of border-width, border-style, and border-color</td>
+        </tr>
+        <tr>
+            <td>background-color</td>
+            <td>white, #ffffff, rgb(255,255,255)</td>
+            <td>Sets the background colour</td>
+        </tr>
+        <tr>
+            <td>background-image</td>
+            <td>url:a url of an image</td>
+            <td>Sets the background image of the page</td>
+        </tr>
+        <tr>
+            <td>font</td>
+            <td>font-style, font-family, font-weight</td>
+            <td>Selects the font for the text.</td>
+        </tr>
+        <tr>
+            <td>font-size</td>
+            <td>small, medium, large, %</td>
+            <td>Changes the size of the font in either pixels or large, small and in em</td>
+        </tr>
+        <tr>
+            <td>padding</td>
+            <td>-right,-left,-top,-bottom</td>
+            <td>The CSS padding properties are used to generate space around an element's content, inside of any defined borders</td>
+        </tr>
+        <tr>
+            <td>padding-top/right/botttom/left</td>
+            <td>20xp, 0.5px, 100px, 325px</td>
+            <td>The padding of all four sides can be set starting with top, right, bottom, left. Top, bottom</td>
+        </tr>
+        <tr>
+            <td>text-color</td>
+            <td>black, rgb(0,0,0) #000000</td>
+            <td>Change the colour of the text</td>
+        </tr>
+        <tr>
+            <td>position</td>
+            <td>relative, fixed, sticky, absolute</td>
+            <td>The position property specifies the type of positioning method used for an element</td>
+        </tr>
+        <tr>
+            <td>z-index</td>
+            <td>z-index 0-1</td>
+            <td>z-index is the CSS property that controls the stacking order of overlapping elements on a page. An element with a higher z-index value will appear in front of an element with a lower z-index value</td>
+        </tr>
+        <tr>
+            <td>list-style-type</td>
+            <td>circle, square, upper-roman, lower-alpha, georgian</td>
+            <td>This sets the style that a list is set with.</td>
+        </tr>
+        <tr>
+            <td>position-static;</td>
+            <td>HTML elements are positioned static by default.</td>
+            <td>Static positioned elements are not affected by the top, bottom, left, and right properties. An element with position: static;
+                 is not positioned in any special way; it is always positioned according to the normal flow of the page:</td>
+        </tr>
+        <tr>
+            <td>position-relative;</td>
+            <td>Positioned relative to its normal position</td>
+            <td>Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.</td>
+        </tr>
+        <tr>
+            <td>position-fixed;</td>
+            <td>An element with position: fixed; is positioned relative to the viewport</td>
+            <td>which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.<td>
+        </tr>
+        <tr>
+            <td>position-absolute;</td>
+            <td>An element with position: absolute; is positioned relative to the nearest positioned ancestor</td>
+            <td>Instead of positioned relative to the viewport, like fixed</td>
+        </tr>
+        <tr>
+            <td>position-sticky;</td>
+            <td>An element with position: sticky; is positioned based on the user's scroll position.</td>
+            <td>A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).</td>
+        </tr>
+        <tr>
+            <td>text-align</td>
+            <td>center, left, right, justify, initial, inherit</td>
+            <td>The text-align property specifies the horizontal alignment of text in an element</td>
+        </tr>
+        <tr>
+            <td>Overflow</td><!-- Make visible, hidden,scroll and auto highlited-->
+            <td>visible - Default. The overflow is not clipped. The content renders outside the element's box. 
+                hidden - The overflow is clipped, and the rest of the content will be invisible
+                scroll - The overflow is clipped, and a scrollbar is added to see the rest of the content
+                auto - Similar to scroll, but it adds scrollbars only when necessary
+            </td>
+            <td>The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area.
+
+        </td>
+        </tr>
+        <tr>
+            <td>opacity</td>
+            <td>The opacity property can take a value from 0.0 - 1.0. The lower the value, the more transparent</td>
+            <td>The opacity property specifies the opacity/transparency of an element.</td>
+        </tr>
+        
+    </tbody>
+        
+        
+       </table>
+        
+       
+    </body>
+</html>

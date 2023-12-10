@@ -1,0 +1,30 @@
+
+body {
+    background-color: rgb(195, 222, 195);
+    font-family: 'Raleway';
+}
+
+
+
+table, th ,td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'Raleway';
+    background-color: rgb(255, 232, 202);
+    
+}
+table {
+    border-radius: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    list-style:;
+}
